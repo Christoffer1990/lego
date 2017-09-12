@@ -855,3 +855,54 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+nav{
+	background-color:lightgray;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.page_item{
+	color:black;
+	padding-left: 20px;
+	padding-right: 20px;
+ 
+	
+}
+
+ul li a{
+	color: black;
+}
+
+ul li a:visited{
+	color:black;
+}
+
+
+ul li.current_page_item{
+background: #0185c8;
+}
+
+ul li.current_page_item a{
+color: white;
+}
+
+ul li:hover{
+background: #0185c8;
+transition: 0.2s;
+
+}
+
+ul li a:hover{
+color: white;
+transition: 0.2s;
+
+}
+
+.main-navigation li {
+	float: left;
+	
+}
+ul {
+	
+	text-align:center;
