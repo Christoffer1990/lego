@@ -912,9 +912,3 @@ ul {
 .site-branding {
 	width: 300px;
 }
-
-
-
-a{
-	transform: rotate(180deg);
-}
