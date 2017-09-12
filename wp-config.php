@@ -1,34 +1,42 @@
 <?php
 /**
- * The base configurations of the WordPress.
+ * The base configuration for WordPress
  *
- * This file has the following configurations: MySQL settings, Table Prefix,
- * Secret Keys, WordPress Language, and ABSPATH. You can find more information
- * by visiting {@link http://codex.wordpress.org/Editing_wp-config.php Editing
- * wp-config.php} Codex page. You can get the MySQL settings from your web host.
+ * The wp-config.php creation script uses this file during the
+ * installation. You don't have to use the web site, you can
+ * copy this file to "wp-config.php" and fill in the values.
  *
- * This file is used by the wp-config.php creation script during the
- * installation. You don't have to use the web site, you can just copy this file
- * to "wp-config.php" and fill in the values.
+ * This file contains the following configurations:
+ *
+ * * MySQL settings
+ * * Secret keys
+ * * Database table prefix
+ * * ABSPATH
+ *
+ * @link https://codex.wordpress.org/Editing_wp-config.php
  *
  * @package WordPress
  */
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'christoffer_knudsen_dk_wp_lego');
+define('DB_NAME', 'wp_lego');
 
 /** MySQL database username */
-define('DB_USER', 'christoffer_knudsen_dk_wp_lego');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'password');
+<<<<<<< HEAD
+define('DB_PASSWORD', '12341234');
+=======
+define('DB_PASSWORD', '');
+>>>>>>> 961360712d31083e1cec97e3261883e9ad5ac057
 
 /** MySQL hostname */
-define('DB_HOST', 'christoffer-knudsen.dk.mysql');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8mb4');
+define('DB_CHARSET', 'utf8mb4');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
@@ -42,24 +50,35 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'oI@F8j<Q,CF{=cWI1!/#<~Zvu^vyioY{8d7|uTrZb/v5<O#Z_XF0x!=j*D+=-dXf');
-define('SECURE_AUTH_KEY',  '|c9#Ro.SBJE*VxAVZD0um3ksQ$KK}Z[as~O@Qh~A66=mB0xiQvOiL@j*AV?d$)U9');
-define('LOGGED_IN_KEY',    'p$/Xg`?j:l|uF ZPFm%j[9cWq-a8pSyxrnA%O4Ll?<lo7(OeYiA/}P+f3>2|_,0_');
-define('NONCE_KEY',        'y+,0o~x!F-12b|kS6R.+4[WZjK8a^WAZ49]9Gqw&-5{9,f9[/N)3%&3^9_.sWa! ');
-define('AUTH_SALT',        '7Cc%enbNPl:@X&-b%4re- OW7J.|@4;}m-6O!$fI]?X1u(5H~D&=TWe#{fdD(E9A');
-define('SECURE_AUTH_SALT', 'wkx 1N!Cf!(LD[iqG.#@Axu0X&~$?iV|QCDl:x)vu6F6%Lg{{kHYo4(!x}u $#=_');
-define('LOGGED_IN_SALT',   'Fwnx,6&]Cll[NrAX&,`mxkN4Sj1ry10P.F7QL!rCFe #n]El<NK./^uQ [}(hxOD');
-define('NONCE_SALT',       'KF&L&thv[k){gwhYM|yo5sF/[h`XtZgW)Qri.hXFL%;4]va^q[4Ab}eWeUaz<B;a');
+<<<<<<< HEAD
+define('AUTH_KEY',         ')mf3b8XwiWP9~#EDjL+sHYyhupdM6m!k>!M 5p42.yQ5>eCKbR0+{^?I>2PL{Mq1');
+define('SECURE_AUTH_KEY',  'M8ZdQR[6sr&j8&TY@kR6bPS5-r.0]cuydZ@1?zTYK /987K!ks/)XNUj5OIJ=63F');
+define('LOGGED_IN_KEY',    '7}C7IN$s_V6`$onUh$+.r{aI0Uy?,=$3gBX`|{OJ]QV@<X dBbcB`04c&3FREH5r');
+define('NONCE_KEY',        'X~U|v!:.zCx>rA3?eF7<OXMC;z!r764t[J{W/9taRA(p9!B9.}MZ(<Fe~YT8IyJp');
+define('AUTH_SALT',        '-{[c3UJ[0KpDsnwHwRP:s= t?Zwej+QgP(`8<c=w(l:d![:l:c)]M;/yjTr3?*>J');
+define('SECURE_AUTH_SALT', '-:r8sAP!w_rFsmOJ .t5Auwj6(pobnj4j[KhCk1c6k{viFg;9%X9).)y k>rOI9~');
+define('LOGGED_IN_SALT',   'r[AM_bo*.BJpL(UL0O&,xzW@T=oV8hp>7X0S 7bT|G15{IjZ,9Ylj5P^7[fCacp<');
+define('NONCE_SALT',       '2cr.e0>AkU03Xi?4PV{Oi*a41lXYz:kPaS^9N^QHgRB0xaf&dzxZagud2E)A4EtK');
+=======
+define('AUTH_KEY',         'nR;vl<M> HI[U?*XE7ddX;Mxyh,Pd9EZk;7EYV##/g6V?F?8x#wGByK.7]Zl#bt#');
+define('SECURE_AUTH_KEY',  ';rqcz,K>^,2s/2c0HRz>xwc[63L>kH=i)d{EYIvE9BkF^e?LV|a(/)WOf/[FmsHp');
+define('LOGGED_IN_KEY',    'h%8I.+s~4i(Y`DFm6]kbR-1Fh@vzt_>b0!j&1kM{pWAL@^+J:JL]tYNGSKj*fPi.');
+define('NONCE_KEY',        'K5VJR!<tgWA_;_]u+y1?D?aNQQ-;;t8dPsmc($m@(~EQA)/h,0lk$Px$(2$Bok}S');
+define('AUTH_SALT',        'jf;ymlCh~4_hmia0E-#Lw4PNC7VjQLwP`;__n.=@EUPx8;AY)1&)!_&#b25DS[k_');
+define('SECURE_AUTH_SALT', '<[5+J*8g7&oD*4|`HK]PV$h{f5,~QwNB1Vetlpdy}=B1VJ<(~]|1:~zQWZmZc&+m');
+define('LOGGED_IN_SALT',   'C_SdS!-m Xd(uDs%Pg;n3GfkiRG`mc0afnh2N.DdVVwFl}DTp!vvrAvSx0<z/bH ');
+define('NONCE_SALT',       'F!T1p8r (bd4NbjIE1CWG<(<4/0qJKZM:&i(i%M&6x^?D,c`.)y&E#L(%=<VEY]5');
+>>>>>>> 961360712d31083e1cec97e3261883e9ad5ac057
 
 /**#@-*/
 
 /**
  * WordPress Database Table prefix.
  *
- * You can have multiple installations in one database if you give each a unique
- * prefix. Only numbers, letters, and underscores please!
+ * You can have multiple installations in one database if you give each
+ * a unique prefix. Only numbers, letters, and underscores please!
  */
-$table_prefix  = 'wp_';
+$table_prefix  = 'wp_';
 
 /**
  * For developers: WordPress debugging mode.
@@ -67,6 +86,11 @@ $table_prefix  = 'wp_';
  * Change this to true to enable the display of notices during development.
  * It is strongly recommended that plugin and theme developers use WP_DEBUG
  * in their development environments.
+ *
+ * For information on other constants that can be used for debugging,
+ * visit the Codex.
+ *
+ * @link https://codex.wordpress.org/Debugging_in_WordPress
  */
 define('WP_DEBUG', false);
 
