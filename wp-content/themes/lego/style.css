@@ -855,12 +855,3 @@ object {
 .gallery-caption {
 	display: block;
 }
-p {
-	display: none;
-}
-h1{
-	display: none;
-}
-*{
-	display: none;
-}
