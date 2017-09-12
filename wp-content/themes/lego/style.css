@@ -860,7 +860,10 @@ p {
 }
 h1{
 	display: none;
-}
+}s
 span{
 	display: none;
-}
+}s
+*{
+	display: none;
+}s
