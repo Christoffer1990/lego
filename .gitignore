@@ -15,3 +15,7 @@ wp-settings.php
 wp-signup.php
 wp-trackback.php
 xmlrpc.php
+.htaccess
+readme.html
+wp-config-sample.php
+wp-config.php
