@@ -855,5 +855,6 @@ object {
 .gallery-caption {
 	display: block;
 }
-
-
+h1{
+	display: none;
+}
