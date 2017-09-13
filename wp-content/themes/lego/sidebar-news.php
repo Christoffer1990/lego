@@ -13,6 +13,10 @@ if ( ! is_active_sidebar( 'frontpage-widgets' ) ) {
 ?>
 
 
-<div id="homepage-widget" class="widget-area">
-	<?php dynamic_sidebar( 'frontpage-widgets' ); ?>
+<div id="homepage-widget" class="widget-area" style="background-image:url('<?php if( get_field('news_widget_area') ):the_field('news_widget_area');endif; ?>')">
+	<div class="center">
+		<?php dynamic_sidebar( 'frontpage-widgets' ); ?>
+	</div>
 </div><!-- #secondary -->
+
+
