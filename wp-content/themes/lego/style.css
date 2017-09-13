@@ -518,6 +518,7 @@ a:hover, a:active {
 	display: block;
 	float: left;
 	width: 100%;
+
 }
 
 .main-navigation ul {
@@ -857,7 +858,7 @@ object {
 }
 
 nav{
-	background-color:lightgray;
+	background-color:white;
 	/*padding-bottom: 10px;*/
 	/*padding-top: 10px;*/
 }
@@ -893,7 +894,7 @@ nav{
 	transition: 0.2s;
 }
 
-#primary-menu .page_item ul li:hover{
+#primary-menu ul li:hover a{
 	color: white;
 }
 
@@ -918,3 +919,34 @@ ul {
 .site-branding {
 	width: 300px;
 }
+
+#masthead .site-branding{
+	float: left;
+	width: auto;	
+	
+}
+
+#site-navigation{
+	float: left;
+	clear: right;
+	padding-left: 78px;
+	padding-top: 45px;
+	box-shadow:3px 3px 3px #888888; 
+	
+} 
+
+#masthead .site-branding .custom-logo-link{
+	padding: 10px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px #888888;
+	line-height: 0;
+	position: absolute;
+
+}
+
+#masthead .site-header{
+	position: static;
+}
+
+
