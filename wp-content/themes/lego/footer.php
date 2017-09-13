@@ -27,6 +27,21 @@
     		<div class="bottomMenu">
             	<?php wp_nav_menu( array( 'theme_location' => 'secondary' ) ); ?>  
     		</div>
+
+
+    		<div class="legal">
+    			<ul>
+    				<li>
+    					<a href="#">Cookies</a>
+    				</li>
+    				<li>
+    					<a href="#">Legal Notice</a>
+    				</li>
+    			</ul>
+
+	    		<p>LEGO, LEGO logo, Minifiguren, DUPLO, BIONICLE, LEGENDS OF CHIMA, FRIENDS logo, MINIFIGURES logo, DIMENSIONS, MINDSTORMS, MIXELS, NINJAGO og NEXO KNIGHTS er LEGO Gruppens varemærker. ©2017 The LEGO Group.</p>
+    		</div>
+    		
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
