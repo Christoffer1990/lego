@@ -156,3 +156,12 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+
+
+
+
+// This theme uses wp_nav_menu() in two locations.  
+register_nav_menus( array(  
+  'primary' => __( 'Primary Navigation', 'twentyten' ),  
+  'secondary' => __('Secondary Navigation', 'twentyten')  
+) );

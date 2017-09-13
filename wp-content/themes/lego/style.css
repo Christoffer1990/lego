@@ -912,3 +912,42 @@ ul {
 .site-branding {
 	width: 300px;
 }
+
+
+
+
+
+
+.bottomMenu { 
+	display: block; 
+	width:20%;
+	float: left;
+	margin: 2.5%;
+}
+.bottomMenu ul { 
+	display: inline; 
+	margin: 0;
+	padding: 0;
+}
+.bottomMenu div ul {
+
+}
+.bottomMenu li { 
+	list-style-type: none; 
+	font-size: 12px;
+}
+.bottomMenu ul li {
+
+}
+.bottomMenu li a {
+	color:#000;
+	line-height:15px;
+	text-decoration:none;
+	font-weight:normal;
+	padding: 0 7px 0 3px;
+}
+.bottomMenu li a:hover { 
+	color:#ccc; 
+	text-decoration:underline;
+}
+
