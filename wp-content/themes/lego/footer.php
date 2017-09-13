@@ -15,15 +15,33 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'lego' ) ); ?>"><?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'lego' ), 'WordPress' );
-			?></a>
-			<span class="sep"> | </span>
-			<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'lego' ), 'lego', '<a href="http://underscores.me/">Underscores.me</a>' );
-			?>
+			<div class="bottomMenu">
+            	<?php wp_nav_menu( array( 'theme_location' => 'footer1' ) ); ?>  
+    		</div>
+    		<div class="bottomMenu">
+            	<?php wp_nav_menu( array( 'theme_location' => 'footer2' ) ); ?>  
+    		</div>
+    		<div class="bottomMenu">
+            	<?php wp_nav_menu( array( 'theme_location' => 'footer3' ) ); ?>  
+    		</div>
+    		<div class="bottomMenu">
+            	<?php wp_nav_menu( array( 'theme_location' => 'footer4' ) ); ?>  
+    		</div>
+
+
+    		<div class="legal">
+    			<ul>
+    				<li>
+    					<a href="#">Cookies</a>
+    				</li>
+    				<li>
+    					<a href="#">Legal Notice</a>
+    				</li>
+    			</ul>
+
+	    		<p>LEGO, LEGO logo, Minifiguren, DUPLO, BIONICLE, LEGENDS OF CHIMA, FRIENDS logo, MINIFIGURES logo, DIMENSIONS, MINDSTORMS, MIXELS, NINJAGO og NEXO KNIGHTS er LEGO Gruppens varemærker. ©2017 The LEGO Group.</p>
+    		</div>
+    		
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

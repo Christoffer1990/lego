@@ -518,6 +518,7 @@ a:hover, a:active {
 	display: block;
 	float: left;
 	width: 100%;
+
 }
 
 .main-navigation ul {
@@ -855,3 +856,103 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+.center{
+	margin: 0 auto;
+	max-width: 1128px;
+}
+
+nav{
+	background-color:white;
+	/*padding-bottom: 10px;*/
+	/*padding-top: 10px;*/
+}
+
+.page_item{
+	color:black;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+
+
+#primary-menu ul li a{
+    color: black;
+}
+
+#primary-menu ul li a:visited{
+	color:black;
+}
+
+
+#primary-menu ul li.current_page_item{
+	background: #0185c8;
+
+}
+
+#primary-menu ul li.current_page_item a{
+	color: white;
+}
+
+#primary-menu ul li:hover{
+	background: #0185c8;
+
+	transition: 0.2s;
+}
+
+#primary-menu ul li:hover a{
+	color: white;
+}
+
+#primary-menu ul li.page-item{
+	padding: 0 20px;
+}
+
+
+	
+
+
+.main-navigation li {
+	float: left;
+
+}
+ul {
+	
+	text-align:center;
+
+}
+
+.site-branding {
+	width: 300px;
+}
+
+#masthead .site-branding{
+	float: left;
+	width: auto;	
+	
+}
+
+#site-navigation{
+	float: left;
+	clear: right;
+	padding-left: 78px;
+	padding-top: 45px;
+	box-shadow:3px 3px 3px #888888; 
+	
+} 
+
+#masthead .site-branding .custom-logo-link{
+	padding: 10px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 3px 3px 3px #888888;
+	line-height: 0;
+	position: absolute;
+
+}
+
+#masthead .site-header{
+	position: static;
+}
+
+
