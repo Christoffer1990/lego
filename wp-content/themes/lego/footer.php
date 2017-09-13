@@ -16,16 +16,16 @@
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
 			<div class="bottomMenu">
-            	<?php wp_nav_menu( array( 'theme_location' => 'secondary' ) ); ?>  
+            	<?php wp_nav_menu( array( 'theme_location' => 'footer1' ) ); ?>  
     		</div>
     		<div class="bottomMenu">
-            	<?php wp_nav_menu( array( 'theme_location' => 'secondary' ) ); ?>  
+            	<?php wp_nav_menu( array( 'theme_location' => 'footer2' ) ); ?>  
     		</div>
     		<div class="bottomMenu">
-            	<?php wp_nav_menu( array( 'theme_location' => 'secondary' ) ); ?>  
+            	<?php wp_nav_menu( array( 'theme_location' => 'footer3' ) ); ?>  
     		</div>
     		<div class="bottomMenu">
-            	<?php wp_nav_menu( array( 'theme_location' => 'secondary' ) ); ?>  
+            	<?php wp_nav_menu( array( 'theme_location' => 'footer4' ) ); ?>  
     		</div>
 
 
