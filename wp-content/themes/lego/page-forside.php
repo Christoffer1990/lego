@@ -1,4 +1,4 @@
-asd<?php
+<?php
 /**
  * The template for displaying all pages
  *
@@ -23,6 +23,7 @@ get_header(); ?>
 
 
 			<?php
+			echo do_shortcode('[smartslider3 slider=2]');
 			get_sidebar('news');
 			//get_sidebar('video');
 			get_sidebar('shop');
