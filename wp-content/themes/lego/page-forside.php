@@ -1,4 +1,4 @@
-asd<?php
+<?php
 /**
  * The template for displaying all pages
  *
