@@ -21,6 +21,6 @@ if ( ! is_active_sidebar( 'video-widget' ) ) {
 		<a href="#"></a>
 		<?php dynamic_sidebar( 'video-widget' ); ?>
 	</div>
-</div><!-- #secondary -->
+</div><!-- #secondary -->	
 
 
