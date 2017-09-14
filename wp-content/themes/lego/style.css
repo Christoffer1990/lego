@@ -954,6 +954,8 @@ ul {
 }
 #masthead{
 box-shadow: 0 1px 7px; 
+position: relative;
+z-index: 999;
 }
 .bottomMenu { 
 	display: block; 
