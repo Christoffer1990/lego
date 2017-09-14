@@ -1133,6 +1133,7 @@ z-index: 999;
 
 
 
+
 #main > * {
 	float: left;
 	width: 100%;
@@ -1181,5 +1182,7 @@ z-index: 999;
 }
 #homepage-widget ul li div{
 	margin: 10px;
-	
+}
+#homepage-widget ul li:last-child {
+	margin-bottom: 24px;
 }
