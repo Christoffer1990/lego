@@ -914,7 +914,6 @@ nav{
 
 .main-navigation li {
 	float: left;
-
 }
 ul {
 	
@@ -937,7 +936,7 @@ ul {
 	clear: right;
 	padding-left: 78px;
 	padding-top: 45px;
-	box-shadow:3px 3px 3px #888888; 
+	
 	
 } 
 
@@ -945,7 +944,7 @@ ul {
 	padding: 10px;
 	background-color: white;
 	border-radius: 10px;
-	box-shadow: 3px 3px 3px #888888;
+	box-shadow: 0 1px 7px #888888;
 	line-height: 0;
 	position: absolute;
 
@@ -955,4 +954,6 @@ ul {
 	position: static;
 }
 
-
+#masthead{
+box-shadow: 0 1px 7px; 
+}
