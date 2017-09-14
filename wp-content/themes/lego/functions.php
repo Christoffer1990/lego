@@ -101,6 +101,7 @@ add_action( 'after_setup_theme', 'lego_content_width', 0 );
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
 function lego_widgets_init() {
+	/*
 	register_sidebar( array(
 		'name'          => esc_html__( 'Sidebar', 'lego' ),
 		'id'            => 'sidebar-1',
@@ -110,6 +111,7 @@ function lego_widgets_init() {
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
 	) );
+	*/
 	register_sidebar( array(
 		'name'          => esc_html__( 'frontpage-widgets', 'lego' ),
 		'id'            => 'frontpage-widgets',
