@@ -1186,3 +1186,59 @@ z-index: 999;
 #homepage-widget ul li:last-child {
 	margin-bottom: 24px;
 }
+
+
+#shop-widget {
+	background: #4b91cd;
+	margin: 0;
+	background-repeat: repeat no-repeat;
+	background-position: center bottom;
+}
+#shop-widget ul {
+	display: flex;
+	align-items: stretch;
+	margin: 50px auto;
+}
+#shop-widget ul li {
+	width: 30%;
+	min-width: 200px;
+	margin-left: 2%;
+	margin-right: 2%;
+	display: inline;
+	float: left;
+	background: #FFF;
+	border-radius: 5px;
+	text-align: left;
+	box-shadow: 0 14px 14px -10px rgba(0,0,0,.4), 0 0 16px 0 rgba(0,0,0,.3);
+}
+#shop-widget a span{
+	text-decoration: none;
+	color: #373737;
+	font-weight: 600;
+	margin-left: 10px;
+	float: left;
+	width: 100%;
+}
+#shop-widget ul li img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+#shop-widget ul li div{
+	margin: 10px;
+}
+#shop-widget ul li:last-child {
+	margin-bottom: 24px;
+}
+#shop-widget .rpwwt-post-excerpt::after {
+	content: "se mere \f174";
+	color: white;
+	background: linear-gradient(#313131,#151515);
+	padding: 5px 12px;
+	border-radius: 5px;
+	display: block;
+	width: 110px;
+	text-align: center;
+	margin: 25px auto;
+	box-shadow: inset 0 1px 0 hsla(0,0%,100%,.3), 0 4px 0 0 #000, 0 6px 10px 2px rgba(0,0,0,.2);
+}
