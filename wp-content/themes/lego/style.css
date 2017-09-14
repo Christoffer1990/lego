@@ -1042,7 +1042,8 @@ box-shadow: 0 1px 7px;
 	padding-top: 50px;
 	padding-bottom: 15px;
 	background-color: #130f10;
-	background-image: url("https://www.lego.com/r/www/r/portals/-/media/images/home/layout/take-overs/2017/ninjago-movie-august/lnm_takeover_trailer_bg.jpg?l.r=1877384680");
+	background-size: cover;
+	background-position: center center;
 }
 #video-widget .center{
 	width: 1200px;
