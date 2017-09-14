@@ -863,7 +863,7 @@ object {
 }
 
 nav{
-	background-color:white;
+	/*background-color:white;*/
 	/*padding-bottom: 10px;*/
 	/*padding-top: 10px;*/
 }
@@ -878,6 +878,9 @@ nav{
 
 #primary-menu li a{
     color: black;
+    position: relative;
+    margin-top: 45px;
+    padding: 0 20px;
 }
 
 #primary-menu li a:visited{
@@ -885,30 +888,52 @@ nav{
 }
 
 
-#primary-menu li.current_page_item{
-	background: #0185c8;
-
-}
-
 #primary-menu li.current_page_item a{
+	background: #0185c8;
 	color: white;
-}
 
-#primary-menu li:hover{
+}
+#primary-menu li:hover a{
 	transition: 0.2s;
 	background-color: #0185c8;
-}
-
-#primary-menu li:hover a{
 	color: white;
-	
+	display: block;
 }
 
-#primary-menu li.page-item{
-	padding: 0 20px;
+#primary-menu li.page_item{
+	padding-left: 0;
+	padding-right: 0;
 }
 
 
+#primary-menu li a::before{
+	position: absolute;
+	top: -45px;
+	left: 0;
+	content:'';
+	background-image: url('https://lc-www-live-s.legocdn.com/r/www/r/globalnavigationservices/content/images/global-nav-sprite.png?l.r2=2.0.0.2039');
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 45px;
+	background-size: 70px auto;
+	display: block;
+
+}
+#primary-menu li:nth-child(1) a::before{
+	background-position: 50% -10px;
+}
+#primary-menu li:nth-child(2) a::before{
+	background-position: 50% -80px;
+}
+#primary-menu li:nth-child(3) a::before{
+	background-position: 50% -150px;
+}
+#primary-menu li:nth-child(4) a::before{
+	background-position: 50% -430px;
+}
+#primary-menu li:nth-child(5) a::before{
+	background-position: 50% -360px;
+}
 	
 
 
@@ -1082,29 +1107,4 @@ z-index: 999;
 	width: 640px;
 	margin: 0 auto;
 	padding-top: 50px;
-}
-#primary-menu li a::before{
-	content:'';
-	background-image: url('https://lc-www-live-s.legocdn.com/r/www/r/globalnavigationservices/content/images/global-nav-sprite.png?l.r2=2.0.0.2039');
-	background-repeat: no-repeat;
-	width: 70px;
-	height: 45px;
-	background-size: 70px auto;
-	display: block;
-
-}
-#primary-menu li:nth-child(1) a::before{
-	background-position: 0 -10px;
-}
-#primary-menu li:nth-child(2) a::before{
-	background-position: 0 -80px;
-}
-#primary-menu li:nth-child(3) a::before{
-	background-position: 0 -150px;
-}
-#primary-menu li:nth-child(4) a::before{
-	background-position: 0 -430px;
-}
-#primary-menu li:nth-child(5) a::before{
-	background-position: 0 -360px;
 }
