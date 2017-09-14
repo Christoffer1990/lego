@@ -885,12 +885,12 @@ nav{
 }
 
 
-#primary-menu ul li.current_page_item a{
+#primary-menu ul li.current_page_item{
 	background: #0185c8;
 
 }
 
-#primary-menu ul li.current_page_item{
+#primary-menu ul li.current_page_item a{
 	color: white;
 }
 
