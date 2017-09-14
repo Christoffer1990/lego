@@ -14,12 +14,17 @@ if ( ! is_active_sidebar( 'video-widget' ) ) {
 
 
 <div id="video-widget" class="widget-area" style="background-image:url('<?php if( get_field('video_widget_area') ):the_field('video_widget_area');endif; ?>')">
+	
+
 	<div class="center">
 		<h1>
-			THE LEGO&#174; NINJAGO&#174; MOVIE	&#8482;
+			THE LEGO<sup>&#174;</sup> NINJAGO<sup>&#174;</sup> MOVIE&#8482;
 		</h1>
-		<a href="#"></a>
-		<?php dynamic_sidebar( 'video-widget' ); ?>
+		<a href="#">Se mere</a>		
+		<div id="center-video">
+			<?php dynamic_sidebar( 'video-widget' ); ?>
+		</div>
+		
 	</div>
 </div><!-- #secondary -->	
 
