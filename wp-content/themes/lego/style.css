@@ -1039,7 +1039,45 @@ box-shadow: 0 1px 7px;
 	width: 100%;
 	clear: both;
 }
-.video-widget{
+#video-widget {
+	padding-top: 50px;
+	padding-bottom: 15px;
+	background-color: #130f10;
+	background-image: url("https://www.lego.com/r/www/r/portals/-/media/images/home/layout/take-overs/2017/ninjago-movie-august/lnm_takeover_trailer_bg.jpg?l.r=1877384680");
+}
+#video-widget .center{
+	width: 1200px;
+	margin: 0 auto;
+}
+#video-widget h1{
+	float: left;
+	margin: 0;
+	color: white;
+	font-size: 26px;
+	font-weight: 600;
+	line-height: 36px;
+}
+#video-widget a{
+	float: right;
+	text-align: right;
+	padding: 5px 35px;
+	text-decoration: none;
+	color: white;
+	background: linear-gradient(#7567cd,#3c139c);
+	box-shadow: inset 0 1px 0 #7567cd, 0 4px 0 0 #270c64, 0 6px 10px 2px rgba(0,0,0,.2);
+	border-radius: 5px;
+	position: relative;
+}
+#video-widget a:hover {
+	background: linear-gradient(#867ad3,#4516b3);
+}
+#video-widget a:active {
+	top: 3px;
+	box-shadow: inset 0 1px 0 #7567cd, 0 1px 0 0 #270c64, 0 2px 5px 2px rgba(0,0,0,.2);
+	border-bottom-width: 0;
+}
+#center-video{
 	width: 640px;
 	margin: 0 auto;
+	padding-top: 50px;
 }
