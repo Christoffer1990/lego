@@ -953,12 +953,9 @@ ul {
 #masthead .site-header{
 	position: static;
 }
-
-<<<<<<< HEAD
 #masthead{
 box-shadow: 0 1px 7px; 
 }
-=======
 .bottomMenu { 
 	display: block; 
 	width:20%;
@@ -1046,4 +1043,3 @@ box-shadow: 0 1px 7px;
 	width: 640px;
 	margin: 0 auto;
 }
->>>>>>> 940ebaec1ce15cf026dfe6142cbb3566234fc7cc
