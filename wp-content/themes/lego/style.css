@@ -1003,3 +1003,11 @@ ul {
 	color: #f00;
 	margin-left: 1.7em;
 }
+.legal{
+	width: 100%;
+	clear: both;
+}
+.video-widget{
+	width: 640px;
+	margin: 0 auto;
+}

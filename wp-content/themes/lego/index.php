@@ -53,4 +53,5 @@ get_header(); ?>
 
 <?php
 get_sidebar();
+dynamic_sidebar( 'video' );
 get_footer();
