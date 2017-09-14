@@ -885,23 +885,23 @@ nav{
 }
 
 
-#primary-menu ul li.current_page_item{
+#primary-menu ul li.current_page_item a{
 	background: #0185c8;
 
 }
 
-#primary-menu ul li.current_page_item a{
+#primary-menu ul li.current_page_item{
 	color: white;
 }
 
 #primary-menu ul li:hover{
-	background: #0185c8;
-
 	transition: 0.2s;
+	background-color: #0185c8;
 }
 
 #primary-menu ul li:hover a{
 	color: white;
+	
 }
 
 #primary-menu ul li.page-item{
@@ -935,7 +935,6 @@ ul {
 	float: left;
 	clear: right;
 	padding-left: 78px;
-	padding-top: 45px;
 	width: auto;
 	
 } 
@@ -1042,4 +1041,29 @@ box-shadow: 0 1px 7px;
 .video-widget{
 	width: 640px;
 	margin: 0 auto;
+}
+#primary-menu ul li a::before{
+	content:'';
+	background-image: url('https://lc-www-live-s.legocdn.com/r/www/r/globalnavigationservices/content/images/global-nav-sprite.png?l.r2=2.0.0.2039');
+	background-repeat: no-repeat;
+	width: 70px;
+	height: 45px;
+	background-size: 70px auto;
+	display: block;
+
+}
+#primary-menu ul li:nth-child(1) a::before{
+	background-position: 0 -10px;
+}
+#primary-menu ul li:nth-child(2) a::before{
+	background-position: 0 -80px;
+}
+#primary-menu ul li:nth-child(3) a::before{
+	background-position: 0 -150px;
+}
+#primary-menu ul li:nth-child(4) a::before{
+	background-position: 0 -430px;
+}
+#primary-menu ul li:nth-child(5) a::before{
+	background-position: 0 -360px;
 }
